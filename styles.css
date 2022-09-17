@@ -1,0 +1,126 @@
+body{
+    background-color: #a7a7a7;
+}
+
+.font{
+    font-family:  'Georgia',sans-serif;
+    color: #f6f6f6;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333 ;
+    margin: 0%;
+}
+
+.header{
+    display: flex;
+    background-color: #3C0000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+
+}
+.link{
+    text-decoration: none;
+}
+
+.font.main{
+    font-size: 30px;
+}
+
+.logo{
+    width: auto;
+    height: 75px;
+}
+
+.menu.font.link{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+.logo, .font.main{
+    padding: 10px;
+}
+.right_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left_header{
+    display: flex;
+}
+
+.centerInfo{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 10px solid #3C0000;
+
+}
+
+
+.centerInfo::before{
+    content: '';
+    background-image: url('pictures/campus-entry.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+    background-color: #333333;
+}
+
+#infoLogo{
+    position: relative;
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    background-color: #3C0000;
+    border-radius: 800px;
+}
+.font.center{
+    position: relative;
+    font-size: 35px;
+    background-color: #3e3e3e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info.font{
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    background-color: #3e3e3e;
+    border-radius: 5px;
+    padding: 10px;
+}
+.howJoin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infoJoin{
+    font-size: 30px;
+    text-align: center;
+}
+.eletctionDates{
+    display: flex;
+    flex-direction: row;
+}
